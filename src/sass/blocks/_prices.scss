@@ -14,6 +14,7 @@
         display: grid;
         grid-template-columns: repeat(2, 365px);
         grid-template-rows: repeat(3, minmax(45px, auto));
+        grid-auto-rows: minmax(45px, auto);
         row-gap: 15px;
         margin-top: 60px;
         padding-right: 60px;
@@ -32,7 +33,7 @@
             background-color: $main-color;
             border-radius: 100%;
             position: absolute;
-            top: 5px;
+            top: 3px;
         }
     }
     &__type {
